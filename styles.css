@@ -78,7 +78,7 @@ header a:hover{
 }
 
 header nav ul{
-    font-size: 14px;
+    font-size: 16px;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -98,7 +98,10 @@ header nav li:last-child{
 
 }
 
-@media(max-width: 1000px){
+
+
+
+@media(max-width: 750px){
     header{
         text-align: center;
         flex-direction: column;
@@ -117,8 +120,11 @@ header nav li:last-child{
         margin-bottom: 15px;
 
     }
-}
 
+    header nav ul{
+        font-size: 12px;
+    }
+}
 /* ---------------------
 HERO
 ----------------------*/
